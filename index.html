@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,31 @@
     <title>Lucky Birthday</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <section class="header">
-        <h1>Is your Birthday Lucky or Not 🤔</h1>
-        <h4>Let's find out 🧐</h4>
-    </section>
+
+    <nav class="navigation navvv">
+        <div class="nav-brand">
+            <h5>Welcome</h5>
+
+        </div>
+
+        <div class="nav-brand2">
+            Lucky Birthday <br>
+            <p>
+                <h6> Enter your birth day and we will tell your
+                    is it lucky or not
+
+
+                </h6>
+            </p>
+        </div>
+
+
+    </nav>
+
     <section class="container">
-        <label for="dateOfBirth" class="dateOfBirth-label">Select your DOB :</label>
+        <label for="dateBirth" class="dateOfBirth-label">Enter your Birthday:</label>
         <br>
         <input type="date" name="dateOfBirth" id="dateOfBirth" required>
         <br>
@@ -22,28 +41,13 @@
         <br>
         <input type="number" name="luckyNum" id="luckyNum" placeholder="Lucky Number">
 
-        <button class="checkBtn">Let's See</button>
+        <button class="checkBtn">Click Me</button>
 
         <p class="outputMsg"> </p>
     </section>
 
-    <footer>
-        <section class="privacy">
-            <p class="privacy-note">
-                We do not collect your information nor do store it anywhere. <br>
-                We respect your privacy 🔐
-            </p>
-        </section>
 
-        <section class="socialLinks">
-            <ul class="nobullet">
-                <li class="links"><a href="https://www.github.com/pavan6115"></a>Github</li>
-                <li class="links"><a href="https://www.twitter.com/_kpavan"></a>Twitter</li>
-                <li class="links"><a href="https://www.linkedin.com/in/kulkarni-pavan/"></a>LinkedIn</li>
-            </ul>
-        </section>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
