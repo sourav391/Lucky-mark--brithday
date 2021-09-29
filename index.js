@@ -13,10 +13,10 @@ function luckyBirthday(){
     const dob = dateOfBirth.value
     const datesSum = calculateSum(dob)
     if (datesSum % luckyNum.value === 0){
-        outputMsg.innerText = "Congo 🥳, your birthdate is luckyy 🍾"
+        outputMsg.innerText = "YAAY!, your birthdate is luckyy 🍾"
     }
     else {
-        outputMsg.innerText = "Sorry 😓, your birthdate isn't lucky 😪"
+        outputMsg.innerText = "OHH! your birthdate is not lucky 😪"
     }
 }
 
