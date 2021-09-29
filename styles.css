@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #a8dadc;
+}
+
+.header {
+    margin: 2rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+h4 {
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 40%;
+    margin: 3rem 27rem;
+}
+
+.dateOfBirth-label {
+    margin: 0rem 12rem;
+    font-size: 1.2rem;
+}
+
+#dateOfBirth {
+    margin: .4rem 0rem; 
+    height: 1.5rem;
+    width: 90%;
+    padding: .8rem;
+    margin-bottom: 1.8rem;
+    border-radius: .8rem;
+    border: none;
+}
+
+.luckyNum-label {
+    margin: 0rem 10rem;
+    font-size: 1.2rem;
+}
+
+#luckyNum {
+    margin: .4rem 0rem;
+    height: 1.5rem;
+    width: 90%;
+    padding: .8rem;
+    border-radius: .8rem;
+    border: none;
+}
+
+.checkBtn {
+    display: block;
+    margin: 1.3rem 14rem;
+    height: 2.5rem;
+    width: 5.3rem;
+    font-size: 1rem;
+    border: none
+}
+
+.checkBtn:hover {
+    background-color: #40916c;
+    color: white;
+}
+
+.outputMsg {
+    margin: 4rem 3rem;
+    font-size: 1.6rem;
+}
+
+footer {
+    margin-top: 12rem;
+    height: 9rem;
+    background-color: #219ebc;
+}
+
+.privacy {
+    width:40%;
+}
+
+.privacy-note {
+    margin: 5rem 56rem;
+    padding: 2rem;
+    width: 50%;
+    font-size: 1.1rem;
+}
+
+.socialLinks {
+   margin: -9.8rem 10rem;
+}
+
+.nobullet {
+    list-style: none;
+    cursor: pointer;
+}
+
+.links {
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.links:hover {
+    color:white;
+}
